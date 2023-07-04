@@ -1,5 +1,9 @@
 # CrowdStrikeStuff
-rough scripts that I've stitched (badly) together when Crowdstrike wouldn't offer any help
+rough scripts that I've stitched (badly) together when Crowdstrike wouldn't offer any help.
+
+This script will very roughly move an endpoint from one tenant to a new tenant.
+Crowdstrike apparently doesn't offer a way to migrate endpoints directly, and also would not provide any guidance or help with a script.
+They literally didn't even let me know that the PSFalcon module existed, so they were basically no help and told me I'd have to do it all manually.
 
 Scripts included:
 Main Script: SanitizedMigrationScript.ps1
